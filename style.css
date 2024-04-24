@@ -6,3 +6,14 @@
 body{
     background-image: linear-gradient(to right bottom, rgba(91, 169, 247, 0.329), rgba(181, 152, 207, 0.905));
 }
+.nav-item a{
+    font: 900 11px 'Sedan','Poppins',sans-serif;
+    color: #080808ab !important;
+}
+.line{
+    height: 1px;
+    opacity: 0.4;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.801);
+}
