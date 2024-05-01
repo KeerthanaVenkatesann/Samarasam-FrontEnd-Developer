@@ -6,6 +6,12 @@
 body{
     background-image: linear-gradient(to right bottom, rgba(91, 169, 247, 0.329), rgba(181, 152, 207, 0.905));
 }
+#navStyle{
+    background-color: rgba(252, 252, 252, 0.765);
+    position: absolute;
+    left: 6%;
+    top: 15%;
+}
 .nav-item a{
     font: 900 11px 'Sedan','Poppins',sans-serif;
     color: #080808ab !important;
@@ -16,4 +22,12 @@ body{
     width: 100%;
     border-radius: 15px;
     background-color: rgba(128, 128, 128, 0.801);
+}
+.ones{
+    position: absolute;
+    left: 12.5%;
+    top:5%;
+    background-color: white;
+    /* width: 80vh;
+    height:90vh; */
 }
