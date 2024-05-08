@@ -19,7 +19,7 @@ class="d-flex  align-items-center
         <ul class="navbar-nav p-2 text-center ">
             <li class="nav-item mb-1">
                 <a 
-                href="#about" 
+                onclick="pages('aboutPage')"
                 class="nav-link"
                 >
                 <i class='bx bxs-user fs-5 pb-2' id="user-icon"></i>
@@ -30,7 +30,7 @@ class="d-flex  align-items-center
             </li>
             <li class="nav-item mb-1">
                 <a 
-                href="#" 
+                onclick="pages('resumePage')"
                 class="nav-link"
                 >
                 <i class='bx bxs-spreadsheet fs-5 pb-2'></i>
@@ -41,7 +41,7 @@ class="d-flex  align-items-center
             </li>
             <li class="nav-item mb-1">
                 <a 
-                href="#" 
+                onclick="pages('worksPage')"
                 class="nav-link"
                 >
                 <i class='bx bx-paint fs-5 pb-2'></i>
@@ -53,7 +53,7 @@ class="d-flex  align-items-center
             </li>
             <li class="nav-item mb-2">
                 <a 
-                href="#" 
+                onclick="pages('contactPage')" 
                 class="nav-link"
                 >
                 <i class='bx bxs-contact fs-5 pb-2'></i>
@@ -80,9 +80,10 @@ class="d-flex  align-items-center
         </div>
     </section>
 
+    <!-- about -->
     <aside>
-       <div id="about">
-         <div id="main-content" class=" pt-4"> 
+       <div id="aboutPage" class="view">
+         <div  class=" pt-4 main-content"> 
 
             <h6 class="poppins fw-bold fs-5 about ps-5 pb-2">About <span class="text-dark">Me</span></h6>
             <hr class="col-10 rounded ruler">
@@ -108,6 +109,28 @@ class="d-flex  align-items-center
        </div>
     </aside>
 
+    <!-- resume -->
+    <aside>
+        <div id="resumePage" class="hide main-content">
+            resume
+        </div>
+    </aside>
+
+    <!-- works -->
+    <aside>
+        <div id="worksPage" class="hide main-content">
+            work
+        </div>
+    </aside>
+
+    <!-- conatct -->
+    <aside>
+        <div id="contactPage" class="hide main-content">
+            conatct
+        </div>
+    </aside>
+
+    <!-- logo -->
     <section>
         <div id="box-motion"></div>
         <div id="box-motion-one"></div>

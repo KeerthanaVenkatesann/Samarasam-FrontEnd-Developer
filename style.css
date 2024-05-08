@@ -6,6 +6,10 @@
 body{
     background-image: linear-gradient(to right bottom, rgba(91, 169, 247, 0.329), rgba(181, 152, 207, 0.905));
     overflow-y: hidden;
+    user-select: none;
+}
+a{
+  cursor: pointer;
 }
 #box-motion{
     position: absolute;
@@ -100,14 +104,14 @@ body{
   content: '';
   top: -2%;
   left: -2%;
-  background-image: linear-gradient(to right bottom, rgba(88, 88, 109, 0.493), rgb(131, 164, 197));
+  background-image: linear-gradient(to right bottom, rgba(88, 88, 109, 0.493), rgba(131, 164, 197, 0.623));
   width: 100%;
   height: 100%;
   z-index: -1;
   border-radius: 1% 0%;
 }
 
-#main-content{
+.main-content{
   position: absolute;
   top:10%;
   left: 48%;
@@ -158,6 +162,14 @@ body{
   background-color: rgba(0, 128, 0, 0.219);
 
 }
+.view{
+  display: block;
+  
+}
+.hide{
+  display: none; 
+}
+
 @keyframes bubble-rise-bottom {
   100% {
     top: -10%;
